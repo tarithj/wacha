@@ -1,0 +1,1 @@
+This is a simple bot that allows the members of the server to report members and allows server admins to log bans.
