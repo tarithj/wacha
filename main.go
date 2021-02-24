@@ -64,8 +64,7 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 func main() {
 
 	println(os.Getenv("ClientId"))
-	/*	authCode := "ODEzOTc3NTIwMzAyMTk0Njk4.YDXJow.puEeCGEk0WerBN9Wo5gNNWrHHbo"
-		clientId := "813977520302194698"*/
+
 	dg, err := discordgo.New("Bot " + os.Getenv("AuthCode"))
 	if err != nil {
 		log.Fatalln(err)
